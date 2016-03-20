@@ -9,7 +9,7 @@ $(document).ready(function() {
 	var gridSquareHeight = containerHeight / nsquares;
 	for (n=0; n<(nsquares*nsquares); n++) {
 		$($container).append('<div class="grid-square"></div>');
-		$($container).find('div').height(gridSquareHeight);
-		$($container).find('div').width(gridSquareWidth);
 	};
+	$($container).find('div').height(gridSquareHeight);
+	$($container).find('div').width(gridSquareWidth);
 });
