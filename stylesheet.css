@@ -1,0 +1,11 @@
+#container {
+	height: 500px;
+	width: 500px;
+	border:1px solid black;
+}
+
+.grid-square {
+	float:clear;
+	float:left;
+	background-color:black;
+}
